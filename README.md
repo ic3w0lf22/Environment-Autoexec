@@ -4,7 +4,7 @@
 ```lua
 print(Input.Down.F, Input.Down.LeftControl, input.down.leftcontrol, Input.Down.m0, Input.Down.Mouse1)
 ```
-Return: true or false if a key is down, see https://developer.roblox.com/en-us/api-reference/enum/KeyCode for KeyCode list
+Return: true or false if a key is down, see https://developer.roblox.com/en-us/api-reference/enum/KeyCode for KeyCode list \
 Note: Also has the ability to check if a mouse button is pressed, pass `m0` or `mouse0` to check if the left mouse button is pressed. This is not available for keybinds
 
 ## \<void\> Input:Bind(\<string, KeyCode\> Key, \<function\> Function)
