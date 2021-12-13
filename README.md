@@ -102,7 +102,7 @@ Prints provided parameters to console with timestamps using rconsoleprint
 ```lua
 cprint('joe', workspace, 1, true, Locals.Character)
 ```
-Result: [08:31:35] joe Workspace 1 true Player
+Result: [08:31:35] joe Workspace 1 true Player \
 Note: Set getgenv().RedirectPrints to true to redirect all normal print calls to cprint
 
 ## \<void\> cfprint(\<CFrame\> CFrame)
